@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EndrikTech — Soluções Digitais de Alto Impacto</title>
+  <meta name="description" content="A EndrikTech transforma ideias em experiências digitais extraordinárias. Design moderno, código escalável e foco em resultados." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="hero" id="hero">
+    <img src="imagens/hero.jpg" alt="" class="hero__bg" width="1920" height="1080" />
+
+    <!-- Top Bar / Header -->
+    <header class="hero__header">
+      <div class="container header__inner">
+        <a href="#hero" class="logo">
+          <div class="logo__icon">
+            <i data-lucide="rocket" class="logo__svg"></i>
+          </div>
+          <span class="logo__text">EndrikTech</span>
+        </a>
+        <a href="tel:+5511999999999" class="header__phone glass">
+          <i data-lucide="phone" class="header__phone-icon"></i>
+          (11) 95792-7061
+        </a>
+      </div>
+    </header>
+
+    <div class="container hero__content">
+      <div class="hero__text">
+        <div class="hero__badge glass">
+          <span class="hero__badge-dot"></span>
+          Soluções digitais de alto impacto
+        </div>
+
+        <h1 class="hero__title">
+          Transformamos ideias em
+          <span class="hero__title-highlight">experiências digitais extraordinárias</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Criamos produtos digitais que conectam marcas ao seu público com
+          design moderno, tecnologia de ponta e resultados mensuráveis.
+        </p>
+
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <p class="hero__stat-number">150+</p>
+            <p class="hero__stat-label">Projetos</p>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <p class="hero__stat-number">99%</p>
+            <p class="hero__stat-label">Satisfação</p>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <p class="hero__stat-number">7+</p>
+            <p class="hero__stat-label">Anos</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__form-wrapper glass">
+        <h2 class="hero__form-title">Fale com um especialista</h2>
+        <form id="contactForm" class="hero__form">
+          <input type="text" name="name" placeholder="Seu nome" required class="form__input" />
+          <input type="email" name="email" placeholder="Seu e-mail" required class="form__input" />
+          <input type="tel" name="phone" placeholder="Seu telefone" class="form__input" />
+          <textarea name="message" placeholder="Sua mensagem" rows="3" class="form__input form__textarea"></textarea>
+          <button type="submit" class="btn btn--cta btn--full">Enviar mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__image reveal">
+        <img src="imagens/empresa.jpg" alt="Equipe EndrikTech colaborando" loading="lazy" width="800" height="800" />
+      </div>
+      <div class="about__text">
+        <p class="section__label reveal">Quem Somos</p>
+        <h2 class="section__title reveal">Uma agência movida por tecnologia e criatividade</h2>
+        <p class="about__description reveal">
+          Há mais de 7 anos ajudamos empresas a se destacarem no digital.
+          Combinamos design estratégico com engenharia de software de alto nível
+          para entregar produtos que geram valor real desde landing pages de
+          conversão até plataformas SaaS completas.
+        </p>
+        <a href="https://iteze.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn--cta reveal">
+          Ver portfólio
+        </a>
+        <ul class="about__values reveal">
+          <li class="about__value">
+            <i data-lucide="check-circle" class="about__value-icon"></i>
+            <span>Inovação contínua</span>
+          </li>
+          <li class="about__value">
+            <i data-lucide="check-circle" class="about__value-icon"></i>
+            <span>Foco em resultados</span>
+          </li>
+          <li class="about__value">
+            <i data-lucide="check-circle" class="about__value-icon"></i>
+            <span>Design centrado no usuário</span>
+          </li>
+          <li class="about__value">
+            <i data-lucide="check-circle" class="about__value-icon"></i>
+            <span>Código limpo e escalável</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="benefits" id="benefits">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label reveal">Benefícios</p>
+        <h2 class="section__title reveal">Por que escolher a EndrikTech?</h2>
+      </div>
+      <div class="benefits__grid">
+        <article class="benefit-card reveal">
+          <div class="benefit-card__icon"><i data-lucide="zap"></i></div>
+          <h3 class="benefit-card__title">Alta Performance</h3>
+          <p class="benefit-card__desc">Sites otimizados que carregam em menos de 2 segundos, garantindo melhor experiência e SEO.</p>
+        </article>
+        <article class="benefit-card reveal reveal-delay-1">
+          <div class="benefit-card__icon"><i data-lucide="palette"></i></div>
+          <h3 class="benefit-card__title">Design Moderno</h3>
+          <p class="benefit-card__desc">Interfaces elegantes e intuitivas que refletem a identidade da sua marca com excelência.</p>
+        </article>
+        <article class="benefit-card reveal reveal-delay-2">
+          <div class="benefit-card__icon"><i data-lucide="code-2"></i></div>
+          <h3 class="benefit-card__title">Código Escalável</h3>
+          <p class="benefit-card__desc">Arquitetura limpa e bem documentada, preparada para crescer com seu negócio.</p>
+        </article>
+        <article class="benefit-card reveal reveal-delay-3">
+          <div class="benefit-card__icon"><i data-lucide="shield"></i></div>
+          <h3 class="benefit-card__title">Segurança</h3>
+          <p class="benefit-card__desc">Boas práticas de segurança aplicadas em cada camada do seu projeto digital.</p>
+        </article>
+        <article class="benefit-card reveal reveal-delay-4">
+          <div class="benefit-card__icon"><i data-lucide="bar-chart-3"></i></div>
+          <h3 class="benefit-card__title">Foco em Conversão</h3>
+          <p class="benefit-card__desc">Estratégias de UX comprovadas para maximizar leads e vendas no seu site.</p>
+        </article>
+        <article class="benefit-card reveal reveal-delay-5">
+          <div class="benefit-card__icon"><i data-lucide="headphones"></i></div>
+          <h3 class="benefit-card__title">Suporte Dedicado</h3>
+          <p class="benefit-card__desc">Acompanhamento próximo em cada etapa, do planejamento ao pós-lançamento.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-mid" id="cta">
+    <div class="container">
+      <div class="cta-mid__box reveal">
+        <h2 class="cta-mid__title">Comece agora seu projeto</h2>
+        <p class="cta-mid__text">
+          Transforme sua presença digital com uma equipe que entende de
+          resultados. Solicite um orçamento sem compromisso.
+        </p>
+        <a href="#hero" class="btn btn--white">
+          Solicitar orçamento
+          <i data-lucide="arrow-right" class="btn__icon"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container container--narrow">
+      <div class="section__header">
+        <p class="section__label reveal">FAQ</p>
+        <h2 class="section__title reveal">Perguntas Frequentes</h2>
+      </div>
+      <div class="faq__list reveal">
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Quanto tempo leva para desenvolver um site?</span>
+            <i data-lucide="chevron-down" class="faq__chevron"></i>
+          </button>
+          <div class="faq__answer">
+            <p>O prazo varia de acordo com a complexidade do projeto. Uma landing page pode ser entregue em 1-2 semanas, enquanto plataformas mais complexas podem levar de 4 a 8 semanas.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Vocês trabalham com manutenção após a entrega?</span>
+            <i data-lucide="chevron-down" class="faq__chevron"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Sim! Oferecemos planos de manutenção mensal que incluem atualizações, monitoramento de performance e suporte técnico contínuo.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Qual tecnologia vocês utilizam?</span>
+            <i data-lucide="chevron-down" class="faq__chevron"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Trabalhamos com as tecnologias mais modernas do mercado: React, TypeScript, Node.js, além de plataformas como AWS e Vercel para deploy e infraestrutura.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Vocês fazem design do zero ou usam templates?</span>
+            <i data-lucide="chevron-down" class="faq__chevron"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Todos os nossos projetos são criados do zero, com design exclusivo pensado para a identidade e objetivos de cada cliente.</p>
+          </div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__question" aria-expanded="false">
+            <span>Como funciona o processo de contratação?</span>
+            <i data-lucide="chevron-down" class="faq__chevron"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Tudo começa com uma conversa para entender suas necessidades. Em seguida, apresentamos uma proposta detalhada com escopo, prazo e investimento. Após aprovação, iniciamos o desenvolvimento com acompanhamento semanal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="conversion" id="conversion">
+    <div class="container conversion__inner reveal">
+      <div class="conversion__rocket">
+        <i data-lucide="rocket"></i>
+      </div>
+      <h2 class="conversion__title">Pronto para levar seu negócio ao próximo nível?</h2>
+      <p class="conversion__text">
+        Junte-se a mais de 150 empresas que já transformaram sua presença
+        digital com a EndrikTech. O futuro do seu negócio começa agora.
+      </p>
+      <a href="#hero" class="btn btn--white btn--lg">Quero começar agora</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="logo logo--sm">
+        <div class="logo__icon logo__icon--sm">
+          <i data-lucide="rocket" class="logo__svg"></i>
+        </div>
+        <span class="logo__text logo__text--footer">EndrikTech</span>
+      </div>
+      <p class="footer__copy">&copy; 2026 EndrikTech. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
