@@ -13,12 +13,12 @@ Landing page moderna e profissional para demonstração de habilidades frontend.
 ```
 endriktech/
 ├── index.html          # Página principal
-├── style.css           # Estilos organizados por seção
-├── script.js           # Lógica (accordion, scroll reveal, form)
-├── README.md           # Documentação
-└── images/
-    ├── hero-bg.jpg     # Background do hero
-    └── about-illustration.jpg  # Ilustração da seção About
+├── style.css           # Estilos 
+├── script.js           # Lógica 
+├── README.md           
+└── imagens/
+    ├── hero.jpg    
+    └── empresa.jpg  
 ```
 
 ## 💻 Como Rodar Localmente
@@ -35,33 +35,10 @@ python3 -m http.server 8000
 npx serve .
 ```
 
-## 🌐 Deploy
-
-### GitHub Pages
-1. Suba o projeto para um repositório GitHub
-2. Vá em Settings → Pages → selecione a branch `main`
-
-### Netlify
-1. Arraste a pasta do projeto no [Netlify Drop](https://app.netlify.com/drop)
-
-### Vercel
-```bash
-npx vercel
-```
-
-### Firebase Hosting
-```bash
-npm install -g firebase-tools
-firebase init hosting
-firebase deploy
-```
-
 ## ✨ Features
 
-- Design responsivo (mobile first)
-- Animações ao scroll (Intersection Observer)
-- FAQ accordion interativo
+- Design responsivo 
+- Animações ao scroll 
+- FAQ interativo
 - Formulário de contato funcional
-- Glassmorphism e gradientes modernos
 - Performance otimizada
-- HTML semântico e acessível
